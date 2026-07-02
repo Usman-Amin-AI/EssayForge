@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>EssayForge</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem; }
+      form { display: grid; gap: 0.75rem; max-width: 700px; }
+      textarea, input, select { padding: 0.5rem; }
+      button { padding: 0.6rem 1rem; }
+    </style>
+  </head>
+  <body>
+    <h1>EssayForge</h1>
+    <form action="/generate" method="post">
+      <label>Topic</label>
+      <input name="topic" value="Climate policy" />
+      <label>Style</label>
+      <select name="style">
+        <option value="academic">Academic</option>
+        <option value="persuasive">Persuasive</option>
+        <option value="narrative">Narrative</option>
+      </select>
+      <label>Target words</label>
+      <input name="words" type="number" value="1200" />
+      <label>Long-document mode</label>
+      <input name="long_document" type="checkbox" />
+      <label>Chapter/section titles (one per line)</label>
+      <textarea name="sections">Introduction
+Background
+Policy options
+Conclusion</textarea>
+      <button type="submit">Generate essay</button>
+    </form>
+  </body>
+</html>

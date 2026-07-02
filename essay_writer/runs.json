@@ -1,0 +1,53 @@
+{
+  "7e4c1a27-925e-4146-8630-c995a423ed67": {
+    "run_id": "7e4c1a27-925e-4146-8630-c995a423ed67",
+    "topic": "Climate policy",
+    "created_at": "2026-07-02T14:23:56.185211+00:00",
+    "updated_at": "2026-07-02T14:23:56.185211+00:00",
+    "config": {
+      "words": 900,
+      "style": "academic"
+    },
+    "events": [],
+    "checkpoints": [],
+    "versions": []
+  },
+  "1ada2741-afc7-4b76-bfd8-80bf8d61b27c": {
+    "run_id": "1ada2741-afc7-4b76-bfd8-80bf8d61b27c",
+    "topic": "Climate policy",
+    "created_at": "2026-07-02T14:24:20.427620+00:00",
+    "updated_at": "2026-07-02T14:24:20.482883+00:00",
+    "config": {
+      "words": 900,
+      "style": "academic"
+    },
+    "events": [
+      {
+        "timestamp": "2026-07-02T14:24:20.482883+00:00",
+        "event_type": "completed",
+        "payload": {
+          "state": {
+            "task": "Climate policy",
+            "plan": "This is a generated essay draft.",
+            "research_sources": [],
+            "revision_number": 1,
+            "max_revisions": 2,
+            "__interrupt__": [
+              {
+                "type": "Interrupt",
+                "value": {
+                  "stage": "plan",
+                  "state_key": "plan",
+                  "current_value": "This is a generated essay draft."
+                },
+                "id": "bcf83a2266c1ce6c03c1c436a2c9e58d"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "checkpoints": [],
+    "versions": []
+  }
+}
